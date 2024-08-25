@@ -19,7 +19,7 @@ public class ButaMod {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "butamod";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public ButaMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
