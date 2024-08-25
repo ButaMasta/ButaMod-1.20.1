@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "butamod:block/end_stone_buta_iron_ore"
+  }
+}

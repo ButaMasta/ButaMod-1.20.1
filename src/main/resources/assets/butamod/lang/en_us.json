@@ -5,5 +5,10 @@
   "block.butamod.buta_iron_block": "Block of Buta Iron",
   "block.butamod.raw_buta_iron_block": "Block of Raw Buta Iron",
 
+  "block.butamod.buta_iron_ore": "Buta Iron Ore",
+  "block.butamod.deepslate_buta_iron_ore": "Deepslate Buta Iron Ore",
+  "block.butamod.netherrack_buta_iron_ore": "Netherrack Buta Iron Ore",
+  "block.butamod.end_stone_buta_iron_ore": "End Stone Buta Iron Ore",
+
   "creativetab.buta_tab": "Buta Mod"
 }

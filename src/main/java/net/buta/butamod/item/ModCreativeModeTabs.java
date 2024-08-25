@@ -19,9 +19,13 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.buta_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BUTA_IRON_INGOT.get());
-                        output.accept(ModBlocks.BUTA_IRON_BLOCK.get());
                         output.accept(ModItems.RAW_BUTA_IRON.get());
+                        output.accept(ModBlocks.BUTA_IRON_BLOCK.get());
                         output.accept(ModBlocks.RAW_BUTA_IRON_BLOCK.get());
+                        output.accept(ModBlocks.BUTA_IRON_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_BUTA_IRON_ORE.get());
+                        output.accept(ModBlocks.NETHERRACK_BUTA_IRON_ORE.get());
+                        output.accept(ModBlocks.END_STONE_BUTA_IRON_ORE.get());
                     })
                     .build());
 
