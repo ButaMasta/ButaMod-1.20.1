@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "butamod:raw_buta_iron"
+    }
+  },
+  "result": {
+    "item": "butamod:raw_buta_iron_block"
+  }
+}

@@ -1,6 +1,10 @@
 package net.buta.butamod;
 
 import com.mojang.logging.LogUtils;
+import net.buta.butamod.block.ModBlocks;
+import net.buta.butamod.item.ModCreativeModeTabs;
+import net.buta.butamod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +27,11 @@ public class ButaMod {
 
     public ButaMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

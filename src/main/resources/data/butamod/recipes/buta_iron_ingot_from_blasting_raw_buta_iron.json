@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "buta_iron",
+  "ingredient": {
+    "item": "butamod:raw_buta_iron"
+  },
+  "result": "butamod:buta_iron_ingot"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "butamod:block/raw_buta_iron_block"
+  }
+}
